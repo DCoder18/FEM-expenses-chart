@@ -1,0 +1,25 @@
+:root {
+  --clr-red: #EC755D;
+  --clr-cyan: #76B5BC;
+  --clr-brown-1: #92857A;
+  --clr-brown-2: #382314;
+  --clr-cream: #F8E9DD;
+  --clr-off-white: #FFFBF6;
+  --clr-white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 62.5%;
+  min-height: 100%;
+}
+
+img {
+  display: block;
+  width: 100%;
+}

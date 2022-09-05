@@ -1,0 +1,37 @@
+@use 'base';
+@use 'utility';
+@use 'typography';
+
+body {
+  background-color: var(--clr-cream);
+  color: var(--clr-brown-2);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 7.2rem;
+}
+
+.section__balance, 
+.section__spend-chart {
+  border-radius: 2rem;
+}
+
+.section__balance {
+  background-color: var(--clr-red);
+  display: flex;
+  flex-direction: column;
+  color: var(--clr-white);
+}
+
+.section__spend-chart {
+  background-color: var(--clr-off-white);
+}
+
+
+
